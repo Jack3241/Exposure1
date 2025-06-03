@@ -9,6 +9,8 @@ public class Ikea {
         String myString = "My string here";
 
         System.out.println(table1.getweight());
+        table1.setweight(9999.0);
+        System.out.println(table1.getweight());
     }
 
 }
