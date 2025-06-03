@@ -22,10 +22,14 @@ public class Table {
         price =50;
         length =936;
 
+    }
 
-
-
-
+    public Table(double height, double width, double weight, double price, double length){
+        this.height = height;
+        this.width = width;
+        this.weight = weight;
+        this.price = price;
+        this.length = length;
     }
 
     //getters/accessors
@@ -44,4 +48,22 @@ public class Table {
     public double getlength(){
         return length;
     }
+
+    //Setters/Mutators
+    public void setheight(double height){
+        this.height = height;
+    }
+    public void setwidth(double width){
+        this.width = width;
+    }
+    public void setweight(double weight){
+        this.weight = weight;
+    }
+    public void setprice(double price){
+        this.price = price;
+    }
+    public void setlength(double length){
+        this.length = length;
+    }
+
 }
